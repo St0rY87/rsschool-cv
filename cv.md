@@ -1,5 +1,3 @@
-# [rsschool-cv](https://github.com/st0ry87)
-
 # Dmitriy Savin
 
 ## Contacts
