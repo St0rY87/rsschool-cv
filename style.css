@@ -18,23 +18,19 @@ body {
 }
 
 
-
-.introduction_ava {
-    display: flex;
-    justify-content:center;
-    vertical-align:center;
-}
-
 .introduction img {
+    display: block;
     margin-top: 80px;
     height: 400px;
     border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
 }
-.introduction h1, .introduction .introduction_post {
+.introduction h1 {
     color: #FFFFFF;  
     font-weight: 500;
     font-size: 65px;
-    line-height: 24px;
     text-transform: uppercase;
     text-align: center;
     margin-top: 74px;
@@ -42,8 +38,12 @@ body {
 }
 
 .introduction .introduction_post {
+    color: #FFFFFF;  
+    font-weight: 500;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
    
 }
 
@@ -54,14 +54,12 @@ body {
 }
 
 
-
 .background_title {
     margin-top: 50px;
     height: 50px;
     width: 320px;
     background-color:#E8AC34
 }
-
 
 
 .title {
@@ -74,12 +72,10 @@ body {
     text-align: center;
     vertical-align: center;
     
-
 }
 
-.descr{
-    font-family: 'Poppins';
-    margin-top: 20px;
+.descr_item{
+    margin-top: 30px;
     width: 300px;
     color: white;  
     font-weight: 500;
@@ -89,16 +85,19 @@ body {
     text-align: left;
     vertical-align: center;
 }
+.descr_item a {
+    color: white;  
+    text-decoration: none;
+}
+.descr_item a:hover {
+    color:#E8AC34;
+}
 
 .item {
     margin-top: 90px;
 }
 
-.descr ul {
+.descr_item ul {
     padding-left: 20px;
 }
 
-.descr ul li {
-    width:200px;
-    text-align: left;
-}
