@@ -266,6 +266,10 @@ footer .wrapper_footer span {
     font-size: 23px;
 }
 
+.descr_item ul ul {
+    list-style:none;
+}
+
 
 
 
