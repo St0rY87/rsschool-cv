@@ -17,3 +17,14 @@ The text would be add in the near future.
 - CSS/SASS
 - JavaScript
 - Git
+
+## Code Example
+
+```
+const func = (num) => {
+  if (num > 0) {
+    return num - 1;
+  }
+  return num + 1;
+};
+```
