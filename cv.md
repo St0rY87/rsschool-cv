@@ -28,3 +28,15 @@ const func = (num) => {
   return num + 1;
 };
 ```
+
+## Experience
+
+## Education
+
+- University:
+  - Brest Pedagogic
+  - Brest Brest technical
+
+## English
+
+My level of English is about B1.
