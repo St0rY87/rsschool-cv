@@ -17,6 +17,7 @@ The text would be add in the near future.
 - CSS/SASS
 - JavaScript
 - Git
+- Gulp
 
 ## Code Example
 
