@@ -22,7 +22,7 @@ The text would be add in the near future.
 ## Code Example
 
 ```
-const func = (num) => {
+const handleNum = (num) => {
   if (num > 0) {
     return num - 1;
   }
