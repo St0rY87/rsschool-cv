@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>My CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,6 +29,11 @@
         <section class="introduction">
             <div class="container">
                 <div class="introduction_me">
+                    <div class="introduction__ava-wrapper">
+                        <div class="introduction_underlay introduction__ava_underlay"></div>
+                        <img src="img/photo_ava.jpg" class="introduction__ava"
+                            alt="A man outside at the wooden table with laptop in the summer">
+                    </div>
                     <h1 id="about_me">dmitry savin</h1>
                     <div class="introduction_post">
                         junior front-end developer
@@ -37,17 +46,158 @@
                                 About Me
                             </div>
                         </div>
+                        <div class="descr_item">
+                            I'm Dmitry and I've decieded to learn web develop.
+                            It's really interesting for me and I also have beginner skills.
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="background_title">
+                            <div class="title">
+                                contact
+                            </div>
+                        </div>
+                        <div class="descr_item">
+                            Location: <a target="_blank"
+                                href="https://www.google.com/maps/place/%D0%91%D1%80%D0%B5%D1%81%D1%82,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@52.0879995,23.702888,12z">Brest,
+                                Belarus</a>
+                            Phone: <a href="tel:+375297290636">+375&nbsp;29&nbsp;7290636</a><br>
+                            Email: <a href="mailto:mr.dima337@gmail.com">mr.dima337@gmail.com</a>
+                            GitHub: <a target="_blank" href="https://github.com/St0rY87">St0rY87</a>
+                        </div>
+                    </div>
+                    <div class="second_item item">
+                        <div class="background_title">
+                            <div class="title">
+                                Language
+                            </div>
+                        </div>
+                        <div class="descr_item">
+                            <ul>
+                                <li>Russian</li>
+                                <li>English - B1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="third_item item">
+                        <div class="background_title">
+                            <div class="title">
+                                My Projects
+                            </div>
+                        </div>
+                        <div class="descr_item">
+                            <ul>
+                                <li><a target="_blank"
+                                        href="https://rolling-scopes-school.github.io/st0ry87-JSFEPRESCHOOL2022Q2/Travel/">Travel</a>
+                                </li>
+                                <li><a target="_blank"
+                                        href="https://rolling-scopes-school.github.io/st0ry87-JSFEPRESCHOOL2022Q4/plants/">Plants</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="second_item item">
+                        <div class="background_title">
+                            <div class="title">
+                                Education
+                            </div>
+                        </div>
+                        <div class="descr_item">
+                            <ul>
+                                <li>Brest Pedagogic University</li>
+                                <li>Brest technical University</li>
+                                <li>udemy<ul>
+                                        <li><a target="_blank"
+                                                href="https://www.udemy.com/course/webdeveloper/">HTML/CSS
+                                            </a>
+                                        </li>
+                                        <li><a target="_blank"
+                                                href="https://www.udemy.com/course/javascript_practice/">Practical
+                                                JavaScript(advanced level)
+                                            </a>
+                                        </li>
+                                        <li><a target="_blank"
+                                                href="https://www.udemy.com/course/javascript_practice/">JavaScript +
+                                                React (processing)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="skills_bar">
-            <h2>Heading</h2>
+            <div class="container">
+                <h2 class="skills" id="skills">My skills</h2>
+                <div class="progress_bars_wrapper">
+                    <div class="progress_bar_item">
+                        <div class="progress_text">HTML
+                            <span>90</span>%
+                        </div>
+                        <div class="progress_percent html"></div>
+                    </div>
+                    <div class="progress_bar_item">
+                        <div class="progress_text">CSS
+                            <span>85</span>%
+                        </div>
+                        <div class="progress_percent css"></div>
+                    </div>
+                    <div class="progress_bar_item">
+                        <div class="progress_text">Javascript
+                            <span>75</span>%
+                        </div>
+                        <div class="progress_percent javascript"></div>
+                    </div>
+                    <div class="progress_bar_item">
+                        <div class="progress_text">GIT
+                            <span>80</span>%
+                        </div>
+                        <div class="progress_percent git"></div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="code">.
-            <h2>Heading</h2>
+        <section class="code">
+            <div class="container">
+                <h2 id="code">code example</h2>
+                <div class="example_code">
+                    <pre class="code">
+                    <span class="purple">function</span> <span class="green">explode</span>(s) {
+                        <span class="purple">const</span> array = s.<span class="green">split</span>(<span class="blue">' '</span>);
+                        <span class="purple">let</span> result = array.<span class="green">map</span>(<span class="yellow">number</span> =&gt; number.<span class="green">repeat</span>(<span class="yellow">parseInt</span>(number)));
+                        <span class="purple">return</span> result.<span class="green">join</span>(<span class="blue">' '</span>);
+                      }
+                    </pre>
+                </div>
+                <div class="example_code example_code-360">
+                    <pre class="code">
+                    <span class="purple">function</span> <span class="green">explode</span>(s) {
+                        <span class="purple">const</span> array = s.<span class="green">split</span>(<span class="blue">' '</span>);
+                        <span class="purple">let</span> result = array.<span class="green">map</span>(<span class="yellow">number</span> =&gt; {
+                        number.<span class="green">repeat</span>(<span class="yellow">parseInt</span>(number)));
+                        }
+                        <span class="purple">return</span> result.<span class="green">join</span>(<span class="blue">' '</span>);
+                      }
+                    </pre>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div class="wrapper_footer">
+                <a href="https://github.com/St0rY87"><img class="logo_github" src="img/github2.svg"
+                        alt="logo rsshool"></a>
+                <span>2024</span>
+                <a href="https://rs.school/js-stage0"><img class="logo_rsshool" src="img/rs_school_js.svg"
+                        alt="logo rssshool"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
